@@ -1,0 +1,19 @@
+[project]
+name = "advent_of_code_2023"
+version = "0.0.1"
+description = ""
+authors = [
+    {name = "David Šenica", email = "david.senica@medius.si"},
+]
+dependencies = [
+    "numpy>=1.26.2",
+    "matplotlib>=3.8.2",
+    "tqdm>=4.66.1",
+    "z3-solver @ file:///${PROJECT_ROOT}/z3_solver-4.12.3.0-py2.py3-none-manylinux2014_x86_64.whl",
+    "importlib-resources>=6.1.1",
+    "networkx>=3.2.1",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
